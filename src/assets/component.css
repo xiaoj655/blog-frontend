@@ -1,0 +1,18 @@
+.message {
+  position: absolute;
+  /* color: var(--core-subtitle); */
+  color: #fff;
+  top: 32px;
+  left: 50%;
+  width: 500px;
+  transform: translateX(-50%);
+  word-wrap: break-word;
+  background: var(--message-background);
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.transparent {
+  opacity: 0;
+}
